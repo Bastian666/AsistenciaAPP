@@ -1,0 +1,9 @@
+<section>
+  <h1>Formulario para ingresar Alumno</h1>
+  <p>Ingrese Rut: <input type="text" name="rut" [value]="nuevoAlumno.rut" (input)="cambiarRut($event)"></p>
+  <p>Ingrese Nombre: <input type="text" name="nombre" [value]="nuevoAlumno.nombre" (input)="cambiarNombre($event)"></p>
+  <p>Ingrese Apellido: <input type="text" name="apellido" [value]="nuevoAlumno.apellido" (input)="cambiarApellido($event)"></p>
+  <p>Ingrese Edad: <input type="number" name="edad" [value]="nuevoAlumno.edad" (input)="cambiarEdad($event)"></p>
+
+  <button (click)="guardarElemento()">Registrar Alumno</button>
+</section>

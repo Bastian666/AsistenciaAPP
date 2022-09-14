@@ -1,0 +1,8 @@
+<h1>Asistencia APP</h1>
+<app-form-seccion (seccionout)="registraSeccion($event)"></app-form-seccion>
+<br>
+<app-form-alumno (alumnoout)="registraAlumno($event)"></app-form-alumno>
+<br>
+<app-lista-alumnos [alumno]="listarAlumno"></app-lista-alumnos>
+<br>
+<app-lista-historial [seccion]="listarSeccion" [alumno]="listarAlumno"></app-lista-historial>

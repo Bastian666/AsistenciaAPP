@@ -1,0 +1,8 @@
+<article>
+  <p>Rut Alumno: {{ alumno.rut }}</p>
+  <p>Nombre Completo del Alumno: {{ alumno.nombre | uppercase }} {{ alumno.apellido | lowercase }}</p>
+  <p>Edad del Alumno: {{ alumno.edad }}</p>
+  <div>
+    Registro del Alumno ingresado: {{ fecha | date:"HH:mm d/m/yyyy" }}
+  </div>
+</article>

@@ -1,0 +1,8 @@
+<article [id]="seccion.id">
+<h1>Nombre Sección: {{ seccion.nombreDeSeccion | uppercase }}</h1>
+<p>Rut Alumno: {{ alumno.rut }}</p>
+<p>Nombre Completo del Alumno: {{ alumno.nombre | uppercase }} {{ alumno.apellido | lowercase }}</p>
+<div>
+  Registro del Alumno ingresado: {{ fecha | date:"HH:mm d/m/yyyy" }}
+</div>
+</article>

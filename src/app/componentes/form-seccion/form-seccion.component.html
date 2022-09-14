@@ -1,0 +1,7 @@
+<section>
+  <h1>Formulario para Registrar Sección</h1>
+  <p>Ingrese nombre de la Sección: <input type="text" name="seccion" [value]="nuevaSeccion.nombreDeSeccion" (input)="cambiarSeccion($event)"></p>
+  <div>
+    <button (click)="generarClase()">Generar clase</button>
+  </div>
+</section>
